@@ -1,0 +1,13 @@
+'NeosRulez.Folder:Document.Folder':
+  superTypes:
+    'NeosRulez.Folder:Document.GenericPage': true
+  ui:
+    label: i18n
+    icon: 'far fa-folder'
+    position: 'end'
+    group: 'general'
+    inspector:
+      groups:
+        document:
+          label: i18n
+          icon: 'far fa-folder'
