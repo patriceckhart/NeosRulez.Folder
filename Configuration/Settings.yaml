@@ -6,3 +6,6 @@ Neos:
           NeosRulez.Folder:
             - 'NodeTypes/*'
             - 'NodeTypes/Document/*'
+    fusion:
+      autoInclude:
+        NeosRulez.Folder: true

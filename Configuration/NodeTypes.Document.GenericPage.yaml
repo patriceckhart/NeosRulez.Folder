@@ -1,7 +1,7 @@
 'NeosRulez.Folder:Document.GenericPage':
   abstract: true
   superTypes:
-    'Neos.Neos:Shortcut': true
+    'Neos.Neos:Document': true
   properties:
     faicon:
       ui: ~
@@ -12,25 +12,25 @@
       ui: ~
     _hiddenInIndex:
       type: boolean
-      defaultValue: TRUE
+      defaultValue: true
       ui:
         inspector:
           group: ~
     metaRobotsNoindex:
       type: boolean
-      defaultValue: TRUE
+      defaultValue: true
       ui:
         inspector:
           group: ~
     metaRobotsNofollow:
       type: boolean
-      defaultValue: TRUE
+      defaultValue: true
       ui:
         inspector:
           group: ~
     targetMode:
       type: string
-      defaultValue: FALSE
+      defaultValue: true
       ui:
         inspector:
           group: ~
