@@ -3,6 +3,8 @@
   superTypes:
     'Neos.Neos:Document': true
   properties:
+    titleOverride:
+      ui: ~
     faicon:
       ui: ~
     onlyicon:
